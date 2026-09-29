@@ -1,0 +1,19 @@
+[project]
+name = "multi-agent-ai-research-team-claude"
+version = "0.2.0"
+description = "Local-first multi-agent AI research team with NVIDIA Deep Director, Groq specialists, LangGraph, verification and grounded reporting"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents==0.7.19",
+    "fastapi==0.141.1",
+    "httpx==0.28.1",
+    "langchain-core==1.6.5",
+    "langchain==1.4.2",
+    "langchain-openai==1.6.6",
+    "langgraph==1.2.12",
+    "pydantic==2.13.5",
+    "pytest==9.1.1",
+    "streamlit==1.64.0",
+    "uvicorn==0.54.0",
+]
